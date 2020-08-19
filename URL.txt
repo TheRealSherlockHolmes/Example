@@ -1,2 +1,3 @@
 products/, productsxl/
 prodcuts/1, productsxml2
+products, productsxml
