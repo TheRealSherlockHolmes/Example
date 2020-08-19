@@ -1,0 +1,505 @@
+Request : 
+Request method:	GET
+Request URI:	http://localhost:8080/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 06:18:17 GMT
+
+[{"id":1,"name":"Honey"},{"id":2,"name":"Almond"}]
+
+  Request : 
+Request method:	GET
+Request URI:	http://localhost:8080/productsxml
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/xml;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 06:18:17 GMT
+
+<Values><item><id>1</id><name>Honey</name></item><item><id>2</id><name>Almond</name></item></Values>
+
+  Passed : true
+  Request : 
+Request method:	GET
+Request URI:	http://localhost:8080/products/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 06:18:18 GMT
+
+{"id":1,"name":"Honey"}
+
+  Request : 
+Request method:	GET
+Request URI:	http://localhost:8080/productsxml/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/xml;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 06:18:18 GMT
+
+<Product><id>1</id><name>Honey</name></Product>
+
+  Passed : true
+  Request : 
+Request method:	GET
+Request URI:	http://localhost:8080/products/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 06:18:18 GMT
+
+{"id":2,"name":"Almond"}
+
+  Request : 
+Request method:	GET
+Request URI:	http://localhost:8080/productsxml/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/xml;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 06:18:18 GMT
+
+<Product><id>2</id><name>Almond</name></Product>
+
+  Passed : true
+  Request : 
+Request method:	GET
+Request URI:	http://localhost:8080/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 09:06:18 GMT
+
+[{"id":1,"name":"Honey"},{"id":2,"name":"Almond"}]
+
+  Request : 
+Request method:	GET
+Request URI:	http://localhost:8080/productsxml
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/xml;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 09:06:18 GMT
+
+<Values><item><id>1</id><name>Honey</name></item><item><id>2</id><name>Almond</name></item></Values>
+
+  Passed : true
+  Request : 
+Request method:	GET
+Request URI:	http://localhost:8080/products/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 09:06:20 GMT
+
+{"id":1,"name":"Honey"}
+
+  Request : 
+Request method:	GET
+Request URI:	http://localhost:8080/productsxml/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/xml;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 09:06:20 GMT
+
+<Product><id>1</id><name>Honey</name></Product>
+
+  Passed : true
+  Request : 
+Request method:	GET
+Request URI:	http://localhost:8080/products/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 09:06:20 GMT
+
+{"id":2,"name":"Almond"}
+
+  Request : 
+Request method:	GET
+Request URI:	http://localhost:8080/productsxml/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/xml;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 09:06:20 GMT
+
+<Product><id>2</id><name>Almond</name></Product>
+
+  Passed : true
+  Request : 
+Request method:	GET
+Request URI:	http://localhost:8080/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 09:06:39 GMT
+
+[{"id":1,"name":"Honey"},{"id":2,"name":"Almond"}]
+
+  Request : 
+Request method:	GET
+Request URI:	http://localhost:8080/productsxml
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/xml;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 09:06:39 GMT
+
+<Values><item><id>1</id><name>Honey</name></item><item><id>2</id><name>Almond</name></item></Values>
+
+  Passed : true
+  Request : 
+Request method:	GET
+Request URI:	http://localhost:8080/products/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 09:06:41 GMT
+
+{"id":2,"name":"Almond"}
+
+  Request : 
+Request method:	GET
+Request URI:	http://localhost:8080/productsxml/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/xml;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 09:06:41 GMT
+
+<Product><id>1</id><name>Honey</name></Product>
+
+  Passed : false
+  Request : 
+Request method:	GET
+Request URI:	http://localhost:8080/products/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 09:06:41 GMT
+
+{"id":2,"name":"Almond"}
+
+  Request : 
+Request method:	GET
+Request URI:	http://localhost:8080/productsxml/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/xml;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 15 Jul 2020 09:06:41 GMT
+
+<Product><id>2</id><name>Almond</name></Product>
+
+  Passed : true
+  Request : 
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 17 Jul 2020 10:45:01 GMT
+
+[{"id":1,"name":"Honey"},{"id":2,"name":"Almond"}]
+
+  Request : 
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/xml;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 17 Jul 2020 10:45:01 GMT
+
+<Values><item><id>1</id><name>Honey</name></item><item><id>2</id><name>Almond</name></item></Values>
+
+  Passed : true
+  Request : 
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 17 Jul 2020 10:45:03 GMT
+
+{"id":1,"name":"Honey"}
+
+  Request : 
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/xml;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 17 Jul 2020 10:45:03 GMT
+
+<Product><id>1</id><name>Honey</name></Product>
+
+  Passed : true
+  Request : 
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 17 Jul 2020 10:45:03 GMT
+
+{"id":2,"name":"Almond"}
+
+  Request : 
+
+  Response : 
+HTTP/1.1 200 
+Content-Type: application/xml;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 17 Jul 2020 10:45:03 GMT
+
+<Product><id>2</id><name>Almond</name></Product>
+
+  Passed : true
+  Request : 
+
+  Response : 
+
+  Request : 
+
+  Response : 
+
+  Passed : true
+  Request : 
+
+  Response : 
+
+  Request : 
+
+  Response : 
+
+  Passed : true
+  Request : 
+
+  Response : 
+
+  Request : 
+
+  Response : 
+
+  Passed : true
+  Request : 
+
+  Response : 
+
+  Request : 
+
+  Response : 
+
+  Passed : true
+  Request : 
+
+  Response : 
+
+  Request : 
+
+  Response : 
+
+  Passed : true
+  Request : 
+
+  Response : 
+
+  Request : 
+
+  Response : 
+
+  Passed : true
+  

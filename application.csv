@@ -1,0 +1,19 @@
+"Starting DemoApplication on Shivas-PC with PID 12700 (started by Shiva Reddy Baddam in C:\Users\Shiva Reddy Baddam\eclipse-workspace\demo)
+""No active profile set, falling back to default profiles: default
+""Tomcat initialized with port(s): 8080 (http)
+""Starting service [Tomcat]
+""Starting Servlet Engine: Apache Tomcat/9.0.12
+""Initializing Spring embedded WebApplicationContext
+""Servlet dispatcherServlet mapped to [/]
+""Mapping filter: 'characterEncodingFilter' to: [/*]
+""Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""Mapping filter: 'formContentFilter' to: [/*]
+""Mapping filter: 'requestContextFilter' to: [/*]
+""Initializing ExecutorService 'applicationTaskExecutor'
+""LiveReload server is running on port 35729
+""Tomcat started on port(s): 8080 (http) with context path ''
+""Started DemoApplication in 0.491 seconds (JVM running for 1354.9)
+""Condition evaluation unchanged
+""Initializing Spring DispatcherServlet 'dispatcherServlet'
+""Shutting down ExecutorService 'applicationTaskExecutor'
+"
